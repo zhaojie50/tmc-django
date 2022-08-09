@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'tmc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tmc-django ',
+        'NAME': 'tmc',
         'USER': 'root',
         'PASSWORD': '123456',
         'HOST': 'localhost',
